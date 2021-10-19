@@ -10,4 +10,4 @@ function min(x,y){
         return y;
     }
 }
-min(0,-10);
+console.log(min(0,-10)); //Print 0
