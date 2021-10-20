@@ -10,7 +10,7 @@ Define a recursive function isEven corresponding to this description. The functi
 
 function isEven(n){
     if(n < 0){
-      return "Type a natural number";
+      return isEven(-n); //I copy this specific piece of code from the Code SandBox... everything else I made it myself.
     }
     else if(n == 0){
       return true;
